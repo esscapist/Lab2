@@ -1,3 +1,4 @@
+// 2
 function addLetterGrade(data) {
     return data.map(student => {
         let letter;
