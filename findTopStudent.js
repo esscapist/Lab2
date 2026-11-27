@@ -1,3 +1,7 @@
+// findTopStudent.js
+// Автор: Программист 2
+// Возвращает имя студента с максимальным баллом
+
 function findTopStudent(data) {
     if (data.length === 0) return null;
     let top = data[0];
