@@ -1,3 +1,7 @@
+// calculateAverage.js
+// Автор: Денис (Программист 1)
+// Вычисляет средний балл группы
+
 function calculateAverage(data) {
     if (data.length === 0) return 0;
     const sum = data.reduce((acc, student) => acc + student.score, 0);
